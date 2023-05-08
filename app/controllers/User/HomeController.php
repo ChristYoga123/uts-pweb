@@ -1,9 +1,11 @@
 <?php
 
-class HomeController
+class HomeController extends Controller
 {
     public function index()
     {
-        echo "home/index";
+        $this->view("layouts/user/header");
+        $this->view("pages/user/home/index");
+        $this->view("layouts/user/footer");
     }
 }
