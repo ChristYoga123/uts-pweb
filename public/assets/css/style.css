@@ -1,0 +1,11 @@
+body {
+	font-family: "Poppins", "sans-serif" !important;
+}
+
+section#flash-sale {
+	margin: 50px 0 0 0;
+}
+
+section#flash-sale-intro {
+	margin: 0 0 50px 0;
+}
