@@ -1,5 +1,5 @@
 <?php
-class LoginController extends Controller
+class RegisterController extends Controller
 {
     public function index()
     {
